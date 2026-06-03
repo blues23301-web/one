@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIXX BY YAS - Loan Application</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#0057b8;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h2{
+    color:#0057b8;
+}
+
+.btn{
+    display:inline-block;
+    background:#ffc107;
+    color:black;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.form-section{
+    background:white;
+    width:90%;
+    max-width:500px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    background:#0057b8;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    background:#0057b8;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MIXX BY YAS</h1>
+    <p>Fast & Reliable Loan Services</p>
+</header>
+
+<section class="hero">
+    <h2>Apply For A Loan Today</h2>
+    <p>Quick approval and secure application process.</p>
+    <a href="#apply" class="btn">Apply Now</a>
+</section>
+
+<section class="form-section" id="apply">
+    <h3>Loan Application Form</h3>
+
+    <form>
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <input type="number" placeholder="Loan Amount" required>
+
+        <select required>
+            <option value="">Select Loan Period</option>
+            <option>1 Month</option>
+            <option>3 Months</option>
+            <option>6 Months</option>
+            <option>12 Months</option>
+        </select>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 MIXX BY YAS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
